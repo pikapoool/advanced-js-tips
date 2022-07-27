@@ -1,4 +1,5 @@
 // 3. The Liskov Substitution Principle - duck typing (необходимо, чтобы дочерние классы могли бы служить заменой для своих родителей).
+// If you're extending from a class, make sure the base class is as generic as needed to be a true representation of every subclass.
 
 class Square {
 	getWidth() {
@@ -49,4 +50,3 @@ class Rectangle {
 const s = new Square();
 s.geometry.size = 10;
 console.log(s.geometry.getArea());
-
