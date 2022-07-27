@@ -1,2 +1,2 @@
 # solid
-SOLID js examples
+SOLID js, OOP, data structure examples
