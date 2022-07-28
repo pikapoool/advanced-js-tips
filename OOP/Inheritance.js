@@ -12,6 +12,9 @@ let rabbit = {
   __proto__: animal
 };
 
+let dog = Object.create(animal);
+
+dog.walk(); // Animal walk
 rabbit.walk(); // Animal walk
 
 // Functional Inheritance
